@@ -1,13 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{353E2F9D-C8EA-43D2-8CC6-F9C5410A6404}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		SPGenerationX.vsmdi = SPGenerationX.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A79A85E2-B89D-47C2-8269-47A9C6E916D7}"
 	ProjectSection(SolutionItems) = preProject
 		SP.GX.Libs\Microsoft.Practices.ServiceLocation.dll = SP.GX.Libs\Microsoft.Practices.ServiceLocation.dll
@@ -21,18 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Library.T4", "SP.GX.Library.T4\SP.GX.Library.T4.csproj", "{74911EF7-2136-4EDF-B240-C2F6137E52D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Library.Generation", "SP.GX.Library.Generation\SP.GX.Library.Generation.csproj", "{2E331974-623E-40CD-8792-958B02E10BBA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{67E068C7-1538-4F3B-9FB7-13696DAAF573}"
-	ProjectSection(SolutionItems) = preProject
-		..\TestProject2\GenerationTemplates\Templates\ContentTypeTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ContentTypeTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\EntityGenerator.ttinclude = ..\TestProject2\GenerationTemplates\Templates\EntityGenerator.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\FeatureTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\FeatureTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\FieldTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\FieldTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\ListTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ListTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\MapperTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\MapperTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\RepositoryTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\RepositoryTemplate.ttinclude
-		..\TestProject2\GenerationTemplates\Templates\ServiceTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ServiceTemplate.ttinclude
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Entities", "SP.GX.Entity\SP.GX.Entities.csproj", "{6816C6E8-2566-44E6-9892-20391F678563}"
 EndProject
