@@ -1,4 +1,0 @@
-﻿Generation Information
-Warning these file where generated automagically and any changes will be overwritten
-Date: 08/03/2012 4:07:01 PM
-Author: AKIRADEV\jamie.webster

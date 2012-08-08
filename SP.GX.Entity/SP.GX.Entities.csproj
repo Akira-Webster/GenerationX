@@ -62,30 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Employee.cs" />
-    <Compile Include="Entities\Employee.events.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.feature.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.fields.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.lists.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.maps.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.repos.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.svc.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Employee.types.cs">
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,13 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Entities\EmployeeGenerator.txt">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EmployeeGenerator.tt</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
