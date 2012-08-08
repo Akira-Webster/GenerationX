@@ -10,3 +10,4 @@ TestResults
 
 # T4 supporting files
 *.t4properties
+/solution.disposechecksettings
