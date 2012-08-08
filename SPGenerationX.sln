@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Tests", "SP.GX.Tests\SP.GX.Tests.csproj", "{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{353E2F9D-C8EA-43D2-8CC6-F9C5410A6404}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SPGenerationX.vsmdi = SPGenerationX.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Deploy", "SP.GX.Deploy\SP.GX.Deploy.csproj", "{CB32B51C-0E17-49D4-82A6-68A402FE7927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A79A85E2-B89D-47C2-8269-47A9C6E916D7}"
+	ProjectSection(SolutionItems) = preProject
+		SP.GX.Libs\Microsoft.Practices.ServiceLocation.dll = SP.GX.Libs\Microsoft.Practices.ServiceLocation.dll
+		SP.GX.Libs\Microsoft.Practices.SharePoint.Common.dll = SP.GX.Libs\Microsoft.Practices.SharePoint.Common.dll
+		SP.GX.Libs\Microsoft.SharePoint.dll = SP.GX.Libs\Microsoft.SharePoint.dll
+		SP.GX.Libs\SharePointContrib.dll = SP.GX.Libs\SharePointContrib.dll
+		SP.GX.Libs\SPGenesis.Core.dll = SP.GX.Libs\SPGenesis.Core.dll
+		SP.GX.Libs\SPGenesis.Entities.dll = SP.GX.Libs\SPGenesis.Entities.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Library.T4", "SP.GX.Library.T4\SP.GX.Library.T4.csproj", "{74911EF7-2136-4EDF-B240-C2F6137E52D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Library.Generation", "SP.GX.Library.Generation\SP.GX.Library.Generation.csproj", "{2E331974-623E-40CD-8792-958B02E10BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{67E068C7-1538-4F3B-9FB7-13696DAAF573}"
+	ProjectSection(SolutionItems) = preProject
+		..\TestProject2\GenerationTemplates\Templates\ContentTypeTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ContentTypeTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\EntityGenerator.ttinclude = ..\TestProject2\GenerationTemplates\Templates\EntityGenerator.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\FeatureTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\FeatureTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\FieldTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\FieldTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\ListTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ListTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\MapperTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\MapperTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\RepositoryTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\RepositoryTemplate.ttinclude
+		..\TestProject2\GenerationTemplates\Templates\ServiceTemplate.ttinclude = ..\TestProject2\GenerationTemplates\Templates\ServiceTemplate.ttinclude
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.GX.Entities", "SP.GX.Entity\SP.GX.Entities.csproj", "{6816C6E8-2566-44E6-9892-20391F678563}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SPGenerationX.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{36505205-D0C8-4F8C-A5C6-19E1C39DF4A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{CB32B51C-0E17-49D4-82A6-68A402FE7927}.Release|x86.ActiveCfg = Release|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{74911EF7-2136-4EDF-B240-C2F6137E52D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2E331974-623E-40CD-8792-958B02E10BBA}.Release|x86.ActiveCfg = Release|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6816C6E8-2566-44E6-9892-20391F678563}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = f1732086-18ac-4f01-97d8-5a09c7788147
+	EndGlobalSection
+EndGlobal

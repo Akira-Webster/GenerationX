@@ -1,0 +1,13 @@
+﻿<#@ template language="C#" hostspecific="True" debug="True"  #> 
+<#@ output extension="txt" #>
+<#@ include file="T4Toolbox.tt" #>
+<#@ assembly name="$(ProjectDir)..\SP.GX.Library.T4\bin\Debug\SP.GX.Library.Generation.dll" #>
+<#@ assembly name="$(ProjectDir)..\SP.GX.Library.T4\bin\Debug\SP.GX.Library.T4.dll" #>
+<#  
+	//var type = System.Reflection.Assembly..GetType("SP.GX.Entities.Employee", true, true);
+	var generator = new SP.GX.Library.T4.Generators.EntityGenerator();
+	generator.File = "Employee.cs";
+    //generator.Build(type);
+	generator.Run();
+	generator.PrintInfo(this.GenerationEnvironment);
+#>
